@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-warning">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#">Ration Shop</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="add_Product.html">Add product details</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="search.html">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="delete.html">delete</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="view_product.html">View Product details</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col xl-12 col-xxl-12">
+                <div class="row g-3">
+                    <h1> Add Product</h1>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                        <label for="" class="form-label">Product code</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                        <label for="" class="form-label">Name</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                        <label for="" class="form-label">Description</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                        <label for="" class="form-label">Image</label>
+                        <input type="file" id="file1" name="upload">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                        <label for="" class="form-label">Selling price</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                        <label for="" class="form-label">Actaul price</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                        <label for="" class="form-label">Discount</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                        <label for="" class="form-label">Manufacturing date</label>
+                        <input type="date" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                        <label for="" class="form-label"> Expiry date</label>
+                        <input type="date" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                        <label for="" class="form-label">product id</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                        <label for="" class="form-label">product brand name</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                        <label for="" class="form-label">model name</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                        <label for="" class="form-label">colour</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                        <label for="" class="form-label"> company website</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                        <label for="" class="form-label">contact number</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                        <label for="" class="form-label"> customer care number</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                        <button class="btn btn-success">Register</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
